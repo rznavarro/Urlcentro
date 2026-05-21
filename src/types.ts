@@ -1,15 +1,8 @@
-export interface Category {
+export interface ClientProject {
   id: string;
-  name: string;
-  color: string; // Tailwind bg-color and text-color classes
-}
-
-export interface Bookmark {
-  id: string;
-  url: string;
-  title: string;
-  description: string;
-  categoryId: string;
+  clientName: string;
+  urlActual?: string;
+  urlCreada?: string;
+  notes?: string;
   createdAt: string;
-  clicks: number;
 }
