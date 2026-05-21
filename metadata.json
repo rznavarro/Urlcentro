@@ -1,0 +1,6 @@
+{
+  "name": "URL Organizer",
+  "description": "Una página web limpia, minimalista y simple para almacenar, categorizar y organizar enlaces web (URLs) favoritos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
